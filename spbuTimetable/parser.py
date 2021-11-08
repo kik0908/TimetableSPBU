@@ -111,5 +111,3 @@ def get_lessons(direction: str, timesheet_id: str or int, start_date: str = '', 
         ans[day_name] = lessons
 
     return ans
-
-print(get_lessons('AMCP', 303111))
